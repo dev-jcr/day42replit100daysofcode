@@ -3,6 +3,7 @@
 mb={"Name":None,"Type":None,"Special Move":None,"HP":None, "MP":None}
 
 # Asking for input to fill the dictionary items for each key
+
 for key in mb.keys():
   mb[key]=input(f"{key}\n").capitalize().strip()
   print()
@@ -19,6 +20,8 @@ def c(color):
     print("\033[32m", end="")
   elif color=="Spirit":
     print("\033[35m", end="")
+
+# Checking input
 
 if mb["Type"]=="Fire":
   c("Fire")
