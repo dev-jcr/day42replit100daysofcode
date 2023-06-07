@@ -1,5 +1,8 @@
+# Dictionaries: MokéBeast
+
 mb={"Name":None,"Type":None,"Special Move":None,"HP":None, "MP":None}
 
+# Asking for input to fill the dictionary items for each key
 for key in mb.keys():
   mb[key]=input(f"{key}\n").capitalize().strip()
   print()
