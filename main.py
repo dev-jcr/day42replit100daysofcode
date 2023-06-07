@@ -34,6 +34,8 @@ elif mb["Type"]=="Earth":
 elif mb["Type"]=="Spirit":
   c("Spirit")
 
+# Printing result for each value
+
 for key,value in mb.items():
   print(f"{key:<12}:{value}")
   
